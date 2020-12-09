@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite" parallel = "methods" thread-count="5">
+  
+  
+  
+   <listeners>
+   <listener class-name = "RestUtils.extentreport" />
+   </listeners>
+   
+   <test   name="test">
+    <classes>
+      <class name="RestAssured.RestAssuredGet"/>
+      <class name="RestAssured.RestAssuredPost"/>
+      
+      
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

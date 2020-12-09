@@ -1,0 +1,9 @@
+RestUtils\extentreport.class
+RestUtils\testdatautil.class
+RestAssured\RestAssuredPost.class
+RestTest\DeleteTest.class
+RestTest\TestGet.class
+RestUtils\testutil.class
+RestAssured\RestAssuredGet.class
+RestTest\PutTest.class
+RestTest\PostTest.class
